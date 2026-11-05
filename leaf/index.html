@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leaf</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f7f4ef; --fg: #2b2622; --muted: #6b625a; --accent: #7a3e6c; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1d1b19; --fg: #ece6df; --muted: #a59c93; --accent: #d79bc6; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 ui-serif, Georgia, serif; }
+  main { max-width: 38rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+  h1, h2 { font-family: -apple-system, system-ui, sans-serif; line-height: 1.25; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.5rem; }
+  .lede, footer { color: var(--muted); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Leaf</h1>
+  <p class="lede">A private Markdown notes app for iPhone, iPad and Mac that keeps its notes in a Google Drive folder.</p>
+  <p>Leaf shows the Markdown files in one Google Drive folder you choose, marks the ones that changed since you last looked, and lets you edit them. Others you share that folder with, people or automated agents using their own Google accounts, can work on the same notes. Leaf is a personal project and is not sold or distributed.</p>
+
+  <h2 id="privacy">Privacy policy</h2>
+  <p><em>Last updated 5 November 2026</em></p>
+
+  <h3>What Leaf accesses</h3>
+  <p>When you sign in, Leaf asks Google for access to your Google Drive. It uses that access only to:</p>
+  <ul>
+    <li>list your folders so you can pick the one Leaf should use;</li>
+    <li>read, create, rename, update and move to the trash Markdown files in that folder and its subfolders, including files created by accounts you shared the folder with;</li>
+    <li>read the revision history of those files, so that no one's changes are silently overwritten.</li>
+  </ul>
+  <p>Drive's change list also tells Leaf when files elsewhere in your Drive change. Leaf ignores those entries and does not store them.</p>
+
+  <h3>Where your data goes</h3>
+  <p>Leaf has no server. Your notes travel only between your device and Google Drive. Leaf does not collect analytics, show ads, or send your data to the developer or to anyone else.</p>
+
+  <h3>What is stored on your device</h3>
+  <ul>
+    <li>A copy of the notes in your chosen folder, with their names and the name Drive shows for whoever last changed each one, in the app's private storage.</li>
+    <li>Your Google sign-in token, in the device's Keychain.</li>
+  </ul>
+  <p>Signing out in Leaf deletes both. Deleting the app removes the stored notes. To withdraw Leaf's access to your Google account at any time, remove it at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h3>Google API Services</h3>
+  <p>Leaf's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h3>Contact</h3>
+  <p>Questions: <a href="mailto:stfbader@gmail.com">stfbader@gmail.com</a></p>
+
+  <footer><p>Leaf by stefbader</p></footer>
+</main>
+</body>
+</html>
